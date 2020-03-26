@@ -31,3 +31,9 @@ Is a Query Langaguge, Created by Facebook
     ```bash 
         $npm install -dev babel-cli babel-preset-env babel-preset-stage-0
     ```
+
+6. running the Server locally
+
+    ```bash 
+        $npm start
+    ```

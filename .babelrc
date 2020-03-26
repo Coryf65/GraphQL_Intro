@@ -1,0 +1,7 @@
+{
+    // settings for bable, these alow us to run ES6 in our server
+    "presets": [
+        "env",
+        "stage-0"
+    ]
+}
