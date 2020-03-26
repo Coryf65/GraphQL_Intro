@@ -4,7 +4,8 @@
   "description": "Learning GraphQL for fun. and planning on using the Github API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js --exec babel-node -e js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/Coryf65/GraphQL_Intro/issues"
   },
-  "homepage": "https://github.com/Coryf65/GraphQL_Intro#readme"
+  "homepage": "https://github.com/Coryf65/GraphQL_Intro#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
 }
