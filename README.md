@@ -1,7 +1,7 @@
 # GraphQL_Intro
 Learning GraphQL for fun. and planning on using the Github API
 
-## What is GrpahQL ?
+## What is GraphQL ?
 Is a Query Langaguge, Created by Facebook
 
 ### Setting up the Enviroment
