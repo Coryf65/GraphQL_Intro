@@ -1,0 +1,19 @@
+{
+  "name": "graphql_intro",
+  "version": "1.0.0",
+  "description": "Learning GraphQL for fun. and planning on using the Github API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coryf65/GraphQL_Intro.git"
+  },
+  "author": "Cory Fabian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Coryf65/GraphQL_Intro/issues"
+  },
+  "homepage": "https://github.com/Coryf65/GraphQL_Intro#readme"
+}
