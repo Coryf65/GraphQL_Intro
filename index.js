@@ -10,7 +10,16 @@ app.get('/', (req, res) => {
 });
 
 // resolver, function that returns the data from graphql
-const root = { hello: () => "Hi, I'm Manny" };
+const root = { friend: () => {
+    return {
+        "id": 232342424,
+        "firstName": "Matt",
+        "lastName": "Heafy",
+        "gender": "Male",
+        "language": "English",
+        "email": "matt@email.com",
+    }
+} };
 
 // which resolves here once we call the query
 app.use('/graphql', graphqlHTTP({
