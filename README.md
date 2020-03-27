@@ -29,7 +29,7 @@ Is a Query Langaguge, Created by Facebook
 5. We want to install our Development dependencies
 
     ```bash 
-        $npm install -dev babel-cli babel-preset-env babel-preset-stage-0
+        $npm install -dev babel-cli babel-preset-env babel-preset-stage-0 express-graphql graphql
     ```
 
 6. running the Server locally
@@ -37,3 +37,7 @@ Is a Query Langaguge, Created by Facebook
     ```bash 
         $npm start
     ```
+
+Should look like ... 
+
+![yay](/_images/base_setup.PNG)
