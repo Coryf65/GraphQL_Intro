@@ -1,6 +1,7 @@
 // this will be our first schema
 import { buildSchema } from 'graphql';
 
+// the ! means mandatory
 const schema = buildSchema(`
 
     type Friend {
@@ -9,6 +10,10 @@ const schema = buildSchema(`
         lastName: String
         gender: String
         language: String
+        emails: [Email]!
+    }
+
+    type Email {
         email: String
     }
 

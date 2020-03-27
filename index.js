@@ -17,7 +17,10 @@ const root = { friend: () => {
         "lastName": "Heafy",
         "gender": "Male",
         "language": "English",
-        "email": "matt@email.com",
+        "emails": [
+            { email: "matt@email.com" }, 
+            { email: "band@email.com" },
+        ],
     }
 } };
 
