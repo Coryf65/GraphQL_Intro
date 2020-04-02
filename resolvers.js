@@ -14,18 +14,9 @@ const FriendDatabase = {};
 
 // resolver, function that returns the data from graphql
 const resolvers = { 
-    friend: () => {
-        return {
-            "id": 232342424,
-            "firstName": "Matt",
-            "lastName": "Heafy",
-            "gender": "Male",
-            "language": "English",
-            "emails": [
-                { email: "matt@email.com" }, 
-                { email: "band@email.com" },
-            ],
-        }
+
+    getFriend: ({ id }) => {
+        return new Friend(id, FriendDatabase[id]);
     },
 
     createFriend: ({input}) => {
@@ -34,5 +25,6 @@ const resolvers = {
         return new Friend(id, input);
     }
     
-    
 };
+
+export default resolvers;
